@@ -11,11 +11,6 @@ A simple, user-friendly GUI application for downloading YouTube videos in the hi
 - 🖥️ Clean and intuitive GUI interface
 - ⚡ Fast and reliable downloads
 
-## Screenshots
-
-![YouTube Downloader Interface](screenshot.png)
-*Simple and clean interface for easy video downloading*
-
 ## Requirements
 
 - Python 3.6 or higher
@@ -61,7 +56,7 @@ The application uses the `pytubefix` library (a maintained fork of pytube) to:
 ```
 youtube-downloader/
 │
-├── Project1.py          # Main application file
+├── YT_video_downloader.py          # Main application file
 ├── README.md           # This file
 └── requirements.txt    # Python dependencies
 ```
@@ -91,29 +86,9 @@ youtube-downloader/
 - Install pytubefix: `pip install pytubefix`
 - Check that tkinter is available (try `python -m tkinter`)
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## Future Enhancements
-
-- [ ] Support for downloading audio-only files
-- [ ] Batch download multiple videos
-- [ ] Download quality selection
-- [ ] Playlist support
-- [ ] Download history
-- [ ] Custom file naming
-- [ ] Progress bar in the GUI
-
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU GPL v3.0 - see the [LICENSE](LICENSE) file for details.
 
 ## Disclaimer
 
@@ -124,11 +99,3 @@ This tool is for educational purposes only. Please respect YouTube's Terms of Se
 - [pytubefix](https://github.com/JuanBindez/pytubefix) - The library that makes this downloader possible
 - Original pytube library developers
 - Python tkinter documentation and community
-
-## Support
-
-If you encounter any issues or have questions, please [open an issue](https://github.com/yourusername/youtube-downloader/issues) on GitHub.
-
----
-
-**⭐ If you found this project helpful, please give it a star!**
